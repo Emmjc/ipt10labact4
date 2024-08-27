@@ -3,14 +3,14 @@
 require "Profile.php";
 
 $profile = new Profile(
-    "Dela Cruz",
-    "Juan",
-    "Dipasisiil"
+    "Cariño",
+    "Marcus Jeremy",
+    "Mallari"
 );
 
-$profile->setEmail('juan@delacruz.ph');
-$profile->setAddress('Barangay Mintal, Davao City, Philippines 8000');
-
+$profile->setEmail('marcus@carino.ph');
+$profile->setAddress('Angeles University Foundation, Angeles City, Pampanga, 2009');
+$profile->setFavoriteQuote ('May we get what we want and never what we deserved!')
 ?>
 <!DOCTYPE html>
 <html lang="en">
