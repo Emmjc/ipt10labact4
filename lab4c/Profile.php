@@ -10,7 +10,7 @@ class Profile
     protected $email;
     protected $contact_number;
     protected $address;
-    protected $qoute;
+    protected $quote;
 
     public function __construct ($last_name,$first_name,$middle_name){
         $this->last_name = $last_name;
@@ -34,7 +34,7 @@ class Profile
 
     public function setFavoriteQuote($quote)
     {
-        $this->qoute = $quote;
+        $this->quote = $quote;
     }
 
     public function getEmail (){
@@ -54,7 +54,7 @@ class Profile
     }
 
     public function getFavoriteQuote(){
-        return $this->qoute;
+        return $this->quote;
     }
 
     public function getFirstName(){
